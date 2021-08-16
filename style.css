@@ -1,178 +1,139 @@
+
+
+
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    
-}
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+} 
 
-.header{
-    background-color: blanchedalmond;
-    color: black;
-    display: flex;
-    flex-wrap: nowrap;
-}
+.wrapper{
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
 
-.Head-A{
-    float: left;
-    display: flex;
-    flex-wrap: wrap;
-    height: 50px;
-    width: 70px;
-}
-
-.large{
-    font-size: 35px;
-}
-
-p{
-    font-size: 10px;
-    padding-top: 10px;
-}
-
-
-.blue{
-     color: blue;
-}
-
-.Head-B{
-    
-    color: black;
-}
-
-ul{
-   float: right;
-   
-}
-
-ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 15px;
-}
-
-ul li a{
-    color: black;
 }
 
 .container{
-        padding-top: 200px;
-        padding-left: 25%;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        height: 500px;
-        width: 1000px;
-}
-
-pre{
-    font-size: 40px;
-    font-weight: bold;
-    /*padding-left: 25%;*/
-   line-height: 50px;
-   position: relative;
-}
-
-p{
-   color: rgb(104, 103, 103);
-}
-
-.container2{
- padding: 80px;
- padding-top: 15%;
-}
-
-.comp{
-   text-align: center;
-   display: flex;
-   flex-wrap: nowrap;
-   flex-direction: column;
-   height: 50px;
-   width: 500px;
-   margin-bottom: 100px;
-}
-
-.comp p{
-    font-size: 12px;
-    text-align: center;
-    
-}
-
-.comp .bold{
-    font-size: 25px;
-    text-align: center;
-    color: black;
-}
-
-.input-tag{
-    font-weight: bold;
-}
-
-input{
-    color: black;
-}
-
-.form-control{
-    background-color: rgb(168, 198, 253);
-    border-color: rgb(85, 144, 253);
-    border-radius: 10px;
-    border-width: 1.5px;
-    color: rgb(8, 8, 8);
-}
-
-.formGroupExampleInput{
-    color: black;
-}
-
-.upload{
-    font-size: 1em;
-    color: black;
-}
-
-.broken-lines{
     display: flex;
     flex-wrap: wrap;
-    /*height: 200px;
-    width: 500px;*/
-    background-color: rgb(168, 198, 253);
-    border: 1.5px dashed rgb(85, 144, 253);
-    border-radius: 10px;
-    margin: 10px;
-    padding: 80px;
-}
-
-
-.broken-lines p{
-    font-size: 12px;
-    color: black;
-    padding-right: 10px;
-    padding-left: 10px;
+    height: 500px;
+    width: 380px;
+    background-color: hsl(225, 100%, 98%);
+    box-shadow: 0px 3px 10px 0px rgb(185, 184, 184);   
+    border-radius: 15px;
+    position: fixed;
+    top: 15%;
+    left: 30%;
+    justify-self: center;
+    
+    transition: translate(-50%, -50%);
+    user-select: none;
+    cursor: pointer;
 
 }
 
-p .btn-primary
-{ 
-    box-shadow: 5px black;
-    height: 60px;
-    width: 100px;
-
+.container .flex-pics{
+    height: 150px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0px;
 }
 
-.btn-info{
-    background-color: rgb(8, 85, 252);
-    color: white;
+.container .p-head{
+    font-weight: 900;
+    font-size: 20px;
+    text-decoration: solid;
     position: relative;
-    left: 200px;
-    top: 50px;
-    border: 1px rgb(8, 85, 252);
+    left: 30%;
+    justify-content: center;
+    color: hsl(223, 47%, 23%);
+    margin-top: 0px;
 }
 
-.btn-info:hover{
-    background-color: blue;
+.container .paragraph{
+    font-size: 16px;
+    align-content: center;
+    margin: 10px 40px;
+    color: hsl(224, 23%, 55%);
+    margin-top: 0px;
+}
+
+.container p{
+    text-align: center;
+}
+
+.wrapper .Annual{
+    background-color: hsl(225, 100%, 96%);
+    margin: 0px 15px;
+    justify-content: center;
+    display: block;
+    height: 70px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.Annual .music{
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin: 15px 30px;
+
+}
+
+.Annual .para1{
+    font-weight: 600;
+    color: hsl(223, 47%, 23%);
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 80px;
+
+}
+
+.Annual .para2{
+    display: inline-block;
+    font-weight: 400;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 16px;
+  
+}
+
+.Annual .link{
+    float: right;
+    margin-top: -38px;
+    margin-right: 30px;
+}
+
+.Annual a{
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.proceed .sub{
+     padding: 15px 75px;
+     margin: 20px 40px;
+     border-radius: 15px;
+     background-color: hsl(224, 99%, 32%);
+     box-shadow: 0px 3px 5px 3px rgb(193, 193, 194);
+}
+
+.proceed a{
+    text-decoration: none;
     color: white;
+    font-size: 16px;
+    font-weight: 500;
 }
 
-
-
-
-
-
-
-
+.proceed .can{
+    position: relative;
+    top: 20px;
+    left: 140px;
+    color: hsl(224, 23%, 55%);
+}
